@@ -1,0 +1,36 @@
+.flex-conteiner{
+    box-sizing: border-box;
+
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+    justify-content:flex-end;
+
+
+}
+
+.flex-item{
+    flex-shrink: 1;
+    background-color: rgb(38, 92, 6);
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.flex-item1{
+    flex-shrink: 10;
+    background-color: rgb(38, 92, 6);
+    flex-basis: 150px;
+    text-align: center;
+    }
+
+.flex-item2{
+    flex-grow: 1;
+    background-color: rgb(38, 92, 6);
+    flex-basis: 150px;
+    text-align: center;
+}
