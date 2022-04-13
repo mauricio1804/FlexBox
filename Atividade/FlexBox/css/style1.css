@@ -46,4 +46,5 @@
 .item1{
     flex-grow: 1;
     /*Faz o item ocupar mais espaço no conteiner em ralação aos outros itens*/
+    justify-content: flex-start;
 }

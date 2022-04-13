@@ -1,0 +1,52 @@
+.content{
+    position: absolute;
+    z-index: 1;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+.menu1{
+ display: flex;
+ align-items: flex-start;
+ flex-direction: row;
+}
+
+.menu2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.menu2 li{
+    display: inline-block;
+    margin: 0 20px;
+    z-index: 10;
+}
+
+.headerFake{
+    width: 100%;
+    background-color: rgb(236, 3, 3);
+    font-family: 'PlayfairDisplay', Times, serif;
+    font-weight: normal; 
+    position: fixed;
+    z-index: 10;
+}
+
+.home{
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+}
