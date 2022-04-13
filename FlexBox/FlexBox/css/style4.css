@@ -18,32 +18,16 @@
     flex-wrap: wrap; 
     /* Usado para a quebra de linhas dos itens conforme a tela diminui*/ 
 
-    row-gap: 5px; 
-    /*Usado para definir o espaço entre as linhas do itens*/ 
+    gap: 10px; 
+    /*Usado para definir o espaço entre os itens*/ 
 
-    flex-direction: column-reverse;
-    /*Deixa os itens em colunas mas com a ordem trocada*/
-
-    justify-content: center;
-    /*Centraliza os itens dentro do conteiner de forma vertical*/
-
-    align-items: flex-end;
-    /*Alinha o item para o final da página no sentido horizontal*/
-
-
+    flex-direction: row-reverse;
+    /*Deixa os itens em linhas mas com a ordem trocada*/
 
 } .flex-item{ 
-    height: 10px;
-    /*Define a altura de um item*/
-
     background-color: rgb(38, 92, 6); 
     /*Usado para definir a cor do item*/ 
     
-    flex-basis: 50px; 
+    flex-basis: 200px; 
     /*Usado para definir o tamanho da base de cada item, ou seja, o tamanho da largura*/ 
-}
-
-.item1{
-    flex-grow: 1;
-    /*Faz o item ocupar mais espaço no conteiner em ralação aos outros itens*/
 }

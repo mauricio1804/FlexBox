@@ -7,9 +7,11 @@
 
     background-color: rgb(255, 0, 0); 
     /* Define a cor do conteiner*/ 
-    color: rgb(255, 255, 255); /* Define a cor da letra*/ 
 
-    min-height: 97vh; 
+    color: rgb(255, 255, 255); 
+    /* Define a cor da letra*/ 
+
+    min-height: 96vh; 
     /*Define o tamanho do conteiner*/
 
     display: flex;
@@ -18,32 +20,22 @@
     flex-wrap: wrap; 
     /* Usado para a quebra de linhas dos itens conforme a tela diminui*/ 
 
-    row-gap: 5px; 
-    /*Usado para definir o espaço entre as linhas do itens*/ 
+    gap: 10px; 
+    /*Usado para definir o espaço entre os itens*/ 
 
-    flex-direction: column-reverse;
-    /*Deixa os itens em colunas mas com a ordem trocada*/
+    flex-direction: column;
+    /*Configura os itens em coluna*/
 
-    justify-content: center;
-    /*Centraliza os itens dentro do conteiner de forma vertical*/
+    justify-content: flex-end;
+    /*Alinha o item para o final da página no sentido vertical*/
 
-    align-items: flex-end;
-    /*Alinha o item para o final da página no sentido horizontal*/
-
-
+    align-items: flex-start;
+    /*Alinha o item para o começo da página no sentido horizontal*/
 
 } .flex-item{ 
-    height: 10px;
-    /*Define a altura de um item*/
-
     background-color: rgb(38, 92, 6); 
     /*Usado para definir a cor do item*/ 
-    
-    flex-basis: 50px; 
-    /*Usado para definir o tamanho da base de cada item, ou seja, o tamanho da largura*/ 
-}
 
-.item1{
-    flex-grow: 1;
-    /*Faz o item ocupar mais espaço no conteiner em ralação aos outros itens*/
+    flex-basis: 250px; 
+    /*Usado para definir o tamanho da base de cada item, ou seja, o tamanho da largura*/ 
 }

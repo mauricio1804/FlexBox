@@ -1,0 +1,38 @@
+.flex-conteiner{ 
+    box-sizing: border-box; 
+    /* Usado para deixar o tamanho da box de acordo com a borda*/ 
+
+    padding: 50px; 
+    /* Usado para definir a borda dentro do container*/ 
+
+    background-color: rgb(255, 0, 0); 
+    /* Define a cor do conteiner*/ 
+
+    color: rgb(255, 255, 255); 
+    /* Define a cor da letra*/ 
+
+    min-height: 97vh; 
+    /*Define o tamanho do conteiner*/
+
+    display: flex;
+    /* Usado para chamar a biblioteca flex*/ 
+
+    column-gap: 5px; 
+    /*Usado para definir o espaço entre as colunas em relação aos itens*/ 
+
+    flex-flow: row nowrap;
+    /*Ele é uma junção do flex-direction e do flex-wrap*/
+
+} .flex-item{ 
+    background-color: rgb(38, 92, 6); 
+    /*Usado para definir a cor do item*/ 
+    
+    flex-basis: 200px; 
+    /*Usado para definir o tamanho da base de cada item, ou seja, o tamanho da largura*/ 
+}
+
+.item1{
+    flex-shrink: 8;
+    /*Faz o item ocupar menos espaço no conteiner em ralação aos outros itens*/
+
+}
