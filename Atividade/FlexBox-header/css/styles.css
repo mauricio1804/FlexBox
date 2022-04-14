@@ -1,38 +1,92 @@
 .menu1{
  display: flex;
- background-color: blue;
+ align-items: center;
+ font-size: 24px;
+ text-decoration-color: black;
+ color: black;
+ flex-wrap: wrap;
+ flex-shrink: 20;
 }
 
 .menu2{
     display: flex;
-    background-color: cornflowerblue;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    flex-shrink: 20;
 }
 
 .menu3{
     display: flex;
-    background-color: chocolate;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    flex-shrink: 20;
+}
+
+.vazio{
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    font-size: 24px;
+    text-decoration-color: black;
+    color: black;
+    column-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    flex-shrink: 30;
 }
 
 .menu4{
     display: flex;
-    background-color: aqua;
-    flex-basis: 600px;
-    justify-content: end;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    flex-shrink: 20;
+}
+
+.vazio2{
+    display: flex;
+    flex-basis: 4%;
+    align-items: center;
+    font-size: 24px;
+    text-decoration-color: black;
+    color: black;
+    column-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 30;
 }
 
 .menu5{
     display: flex;
-    background-color: blueviolet;
-    flex-basis: 300px;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    flex-shrink: 20;
 }
 
 
 .home{
     display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
 }
 
 .headerFake{
-    background-color: rgb(236, 3, 3);
+    background-color: rgb(255, 255, 255);
     color: black;
     font-family: 'PlayfairDisplay', Times, serif;
     font-weight: normal;
@@ -40,10 +94,109 @@
 
     display: flex;
     box-sizing: border-box;
-    padding: 10px;
     min-width: 100vh;
-    flex-wrap: wrap;
-    gap: 20px;
     flex-direction: row;
+    flex-wrap: wrap;
+    
     
 }
+
+.content{
+    position: absolute;
+    z-index: 1;
+}
+
+.menu1 li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu1 li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+.menu2 li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu2 li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+.menu3 li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu3 li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+.menu4 li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu4 li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+.menu5 li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.menu5 li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+.home li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.home li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    top:0px
+    
+}
+
+
+
+
+
